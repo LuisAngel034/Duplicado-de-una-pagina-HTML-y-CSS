@@ -1,0 +1,102 @@
+.imagen{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 12%;    
+}
+
+.imagen2 {
+    position: absolute;
+    top: 124%;
+    justify-content: space-between;
+    width: auto;
+    height: 449px;
+}
+
+.imagen3{
+    position: absolute;
+    top: 195px;
+    left: 32px;
+}
+
+.container{
+    margin: auto;
+    margin-top: 50px;
+    height: 448.8px;
+    width: 677px;
+    position: absolute;
+    top: 200%;
+    left: 5%;
+    transform: translate(-10%,-112.5%);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    color: white;
+    background-color: rgb(57, 57, 58);
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.clinica{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.tex-inicio{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-80%);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.r{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-top: 10px;
+    width: 100%;
+    height: 21vh;
+    background-color: white;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 8px;
+}
+
+a{
+    color: rgb(74, 68, 99);
+    text-decoration: none;
+    font-weight: 650;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+    color:rgb(255, 202, 242);
+}
